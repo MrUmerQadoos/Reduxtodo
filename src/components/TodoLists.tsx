@@ -126,7 +126,7 @@ const TodoLists = () => {
         <div className="flex flex-col lg:hidden w-full mb-4">
           {/* Upper container */}
           <div className="  flex flex-row justify-between items-center mb-4 border rounded-lg border-[#edeef6] bg-white dark:bg-[#25273d] dark:border-[#313346] text-gray-400 dark:text-gray-500 py-2 px-4">
-            <span className="text-sm dark:lg:text-gray-300 text-gray-800  lg:text-base">
+            <span className="text-sm dark:text-gray-300 text-gray-800 ">
               {incompleteCount} item{incompleteCount !== 1 ? "s" : ""} left
             </span>
             <button
